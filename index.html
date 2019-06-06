@@ -7,6 +7,9 @@
 	<body>
 		<script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
 		<script defer="defer" src="./components/Tabs/Tabs.js"></script>
+		<script defer="defer" src="./components/Carousel/Carousel.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" async></script>
 		
 		<div class="header-container">
 			<div class="dropdown">
@@ -20,15 +23,15 @@
 			<img src="./lambda_logo_light_small.png" class="header" />
 		</div>
 
-		<div class="section">
-			<div class="box">
-				<div class="box-title">Box Title 1</div>
-				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
+		<div class="carousel">
+			<div class="carousel-slide">
+				<img src="img/img1.png" alt="">
+				<img src="img/img2.jpg" alt="">
+				<img src="img/img3.png" alt="">
+				<img src="img/img4.jpg" alt="">
 			</div>
-			<div class="box">
-				<div class="box-title">Box Title 2</div>
-				<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</div>
-			</div>
+			<button id="prev-btn">Prev</button>
+			<button id="next-btn">Next</button>
 		</div>
 
 		<div class="section">
